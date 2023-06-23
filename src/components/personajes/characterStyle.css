@@ -1,0 +1,8 @@
+CHARACTER STYLE
+.character-container {
+    background: red;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   
+}
