@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
-import Menu from "./components/common/Menu"
-import Home from "./components/views/Home"
-import Character from "./components/views/Character"
-import Comic from "./components/views/Comic"
-import Comics from "./components/views/Comics"
-import Personaje from "./components/views/Personaje"
-import Footer from "./components/common/Footer"
-import UniversoCinematografico from './components/views/UniversoCinematografico';
+import Menu from "../src/components/common/Menu"
+import Footer from "../src/components/common/Footer"
+import Home from "../src/components/home/Home"
+import Character from "../src/components/personajes/Character"
+import Comic from "../src/components/comics/Comic"
+import Comics  from "../src/components/comics/Comics"
+import Personaje from "../src/components/personajes/Personaje"
+import UniversoCinematografico from "../src/components/universo/UniversoCinematografico"
 
 
 const App = () => {

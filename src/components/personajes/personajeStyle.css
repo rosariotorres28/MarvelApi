@@ -4,13 +4,13 @@
   
   .comics-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el tamaño de las columnas */
-    grid-gap: 10px; /* Ajusta el espacio entre los elementos */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-gap: 10px; 
   }
   
   .comics-list .card {
-    height: 100%; /* Ajusta la altura de las tarjetas */
+    height: 100%; 
   }
    .bg-image{
-    background: black;
+    background: red;
    }

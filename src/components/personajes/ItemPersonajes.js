@@ -2,14 +2,11 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "../../style.css";
 
 const ItemPersonajes = ({ personaje }) => {
   let imagen = personaje.thumbnail.path + "." + personaje.thumbnail.extension;
-  const descripcionCorta =
-    personaje.description && personaje.description.length > 100
-      ? personaje.description.substring(0, 100) + "..."
-      : personaje.description;
+
 
   return (
     <div>

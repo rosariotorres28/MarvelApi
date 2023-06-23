@@ -9,3 +9,7 @@
 ## Para ejecutar el proyecto usar el siguiente comando
 
 `npm start`
+
+## Programadora: Maria del Rosario Torres
+
+## E-mail: mariadelrosariotorres21@gmail.com

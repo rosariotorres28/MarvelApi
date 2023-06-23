@@ -1,19 +1,12 @@
-
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "../../style.css";
 
 const ItemComics = ({ comic }) => {
   let imagen = comic.thumbnail.path + "." + comic.thumbnail.extension;
 
-  // Limitar la descripción a 100 caracteres
-  const descripcionCorta =
-    comic.description && comic.description.length > 100
-      ? comic.description.substring(0, 100) + "..."
-      : comic.description;
 
-  // Obtener el título del primer personaje
   const tituloPersonaje =
     comic.characters.items.length > 0 ? comic.characters.items[0].name : "";
 

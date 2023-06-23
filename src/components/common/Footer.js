@@ -1,6 +1,5 @@
 
 import React from "react";
-import "./footerStyle.css";
 import { Image } from "react-bootstrap";
 import logo7 from "../img/logo7.jpg";
 import { Link } from "react-router-dom";
@@ -20,17 +19,6 @@ const Footer = () => {
           </div>
           <div class="col-12 col-md-4 py-5">
             <h6 class="text-white">PROGRAMADORA: Maria del Rosario Torres</h6>
-            <div class="text-center">
-              <a href="http://www.facebok.com">
-                <i class="bi bi-facebook text-light fs-4"></i>
-              </a>
-              <a href="http://www.instagram.com">
-                <i class="bi bi-instagram text-light fs-4 mx-4"></i>
-              </a>
-              <a href="http://www.twitter.com">
-                <i class="bi bi-twitter text-light fs-4"></i>
-              </a>
-            </div>
           </div>
         </div>
       </div>

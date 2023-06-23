@@ -1,5 +1,3 @@
-
-
 import React, { useState, useEffect } from "react";
 import { Image, Card } from "react-bootstrap";
 import { useParams } from "react-router-dom";
