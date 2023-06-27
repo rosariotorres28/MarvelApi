@@ -40,7 +40,7 @@ const Personaje = () => {
           <h1 className="text-black">{personaje.name}</h1>
 
           <div className="text-black">
-            {personaje.description && <p>{personaje.description}</p>}
+            {personaje.description && <h5>{personaje.description}</h5>}
           </div>
 
           <div className="comics-list-container mb-5">
