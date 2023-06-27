@@ -44,7 +44,7 @@ const Comic = () => {
           <h1 className="my-3 text-black">{comic.title}</h1>
           <hr  className="text-black"/>
 
-          <h5>{comic.description}</h5>
+          <h5 className="text-black">{comic.description}</h5>
 
           <div className="comics-list-container mb-5">
             <h3 className="text-black">Personajes:</h3>
